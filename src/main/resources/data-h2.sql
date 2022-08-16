@@ -1,0 +1,12 @@
+INSERT INTO location (country, city, street, zip_code, status) VALUES ('Estonia', 'Tallinn', 'Sutiste tee 42', '13420', 'ACTIVE');
+INSERT INTO location (country, city, street, zip_code, status) VALUES ('Estonia', 'Tallinn', 'Saha-Loo 6, Ämma tee 79', '13918', 'ACTIVE');
+INSERT INTO location (country, city, street, zip_code, status) VALUES ('Germany', 'Berlin', 'Altlandsberger Ch 1', '15366', 'ACTIVE');
+INSERT INTO location (country, city, street, zip_code, status) VALUES ('Italy', 'Rome', 'Via Botticelli 8 Valle Martella', '00039', 'ACTIVE');
+INSERT INTO location (country, city, street, zip_code, status) VALUES ('Germany', 'Munich', 'Wirtshofweg', '81249', 'ACTIVE');
+
+
+INSERT INTO factory (name, description, latitude, longitude, status, location_id) VALUES ('ABB', 'ABB is a leading global technology company that energizes the transformation of society and industry to achieve a more productive, sustainable future.', 54.553365, 24.832456, 'OPERATIVE', 1);
+INSERT INTO factory (name, description, latitude, longitude, status, location_id) VALUES ('KONE', 'At KONE, our mission is to improve the flow of urban life. As a global leader in the elevator and escalator industry, KONE provides elevators, escalators and automatic building doors', 54.663323, 24.678821, 'IDLE', 2);
+INSERT INTO factory (name, description, latitude, longitude, status, location_id) VALUES ('Deloitte', 'Think a professional services career is nothing but spreadsheets, gray suits, and corporate profits? Think again. From professional growth to pursuing your passions, careers at Deloitte come with plenty of opportunities.', 52.443325, 13.265829, 'OPERATIVE', 3);
+INSERT INTO factory (name, description, latitude, longitude, status, location_id) VALUES ('IBM', 'IBM is bringing the power of an open hybrid cloud and AI strategy to life for our clients and partners around the world. Restlessly reinventing since 1911', 41.553365, 12.832456, 'OPERATIVE', 4);
+INSERT INTO factory (name, description, latitude, longitude, status, location_id) VALUES ('EY', 'At EY, we’re dedicated to helping organizations solve their toughest challenges and realize their greatest ambitions - from start-ups to Fortune 500 companies – and the work we do with them is as varied as they are', 52.653365, 13.782456, 'OPERATIVE', 5);
